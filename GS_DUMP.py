@@ -1,12 +1,13 @@
 import os
 import requests
 import random
-
+os.system("git pull")
 # clear terminal screen
 os.system("clear")
 
 # logo with fancy colors
-logo=("""\033[1;97m
+def logo():
+    print=("""\033[1;97m
   ██████╗ ███████╗    ██████╗     ██╗  ██╗
 ██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
 ██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
@@ -16,7 +17,7 @@ logo=("""\033[1;97m
 \033[1;92m╔═════════════════════════════════════════╗
 \033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
 \033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
-\033[1;92m║ ᗙ  Version  : 0.3                       ║
+\033[1;92m║ ᗙ  Version  : 0.1                       ║
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝""")
 
