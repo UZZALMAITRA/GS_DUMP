@@ -21,7 +21,7 @@ def logo():
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝""")
 
-def x():
+def menu():
     print('[1] DUMP UID NEW \n[2] DUMP UID OLD \n[3] FB GROUP \n[4] EXIT TOOLS')
 
 # main function
@@ -61,4 +61,4 @@ def HLS():
         exit()
 
 # run the main function with logo and menu
-x()
+menu()
